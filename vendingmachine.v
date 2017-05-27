@@ -20,8 +20,8 @@ module vendingmachine(SW,LEDR,LEDG,HEX0,HEX1,HEX2,HEX3,HEX4,HEX5);
 	assign LEDR[2] = sonuc3;
 	assign LEDR[3] = sonuc4;
 
-	/*
-	ürünün fiyatýný göster
+	
+	//ürünün fiyatýný göster
 	wire y0,y1,y2,y3,y4,y5,y6,y7;
 	binarytobcd tb0 (SW[6], SW[5], SW[4], SW[3], SW[2],y0,y1,y2,y3,y4,y5,y6,y7); 
 	b2d_7seg b01 (y0,y1,y2,y3,HEX4);
